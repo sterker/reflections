@@ -11,15 +11,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    allows you to add multiple files to staging area for combined commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+     experimenting with code, different versions of code
+
 How do the diagrams help you visualize the branch structure?
+
+     they allow you to see file lineage, where things diverge
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    because the master become the new head
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-  test test
+  will merge (for better or worse) unless there is a ocnflict
